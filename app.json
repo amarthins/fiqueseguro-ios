@@ -1,8 +1,8 @@
 {
   "expo": {
-    "name": "fique49",
-    "slug": "fique49",
-    "version": "1.0.0",
+    "name": "Fique Seguro",
+    "slug": "fiqueseguro",
+    "version": "1.3.3",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
     "userInterfaceStyle": "light",
@@ -18,13 +18,44 @@
       "supportsTablet": true
     },
     "android": {
+      "versionCode": 133,
+      "package": "com.marthins.santoantonio",
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
+      },
+      "permissions": [
+        "android.permission.ACCESS_COARSE_LOCATION",
+        "android.permission.ACCESS_FINE_LOCATION"
+      ],
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyClPdSkBpLNgSecCGjeec-xufAgeEfWe8M"
+        }
       }
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationAlwaysAndWhenInUsePermission": "A Santo Antônio Energia acessa a sua localização apenas para encontrar um ponto de encontro mais próximo de você mesmo quando o aplicativo estiver fechado ou não em uso."
+        }
+      ],
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/notification-icon.png",
+          "color": "#ffffff"
+        }
+      ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "20f1510f-4fde-411e-8e2d-a73916afcd46"
+      }
     }
   }
 }

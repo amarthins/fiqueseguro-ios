@@ -1,0 +1,18 @@
+[
+    {
+        "value":{"full":"texto completo","short":"texto curto"},
+        "label":"1"
+    },
+    {
+        "value":"Esta é uma mensagem ainda não aberta pelo usuário, Esta é uma mensagem ainda não aberta pelo usuário, Esta é uma mensagem ainda não aberta pelo usuário, Esta é uma mensagem ainda não aberta pelo usuário, Esta é uma mensagem ainda não aberta pelo usuário, Esta é uma mensagem ainda não aberta pelo usuário, Esta é uma mensagem ainda não aberta pelo usuário, Esta é uma mensagem ainda não aberta pelo usuário, Esta é uma mensagem ainda não aberta pelo usuário, Esta é uma mensagem ainda não aberta pelo usuário e que não aparece no formato completo",
+        "label":"1"
+    },
+    {
+        "value":"Esta é uma mensagem ainda não aberta pelo usuário e que não aparece no formato completo Esta é uma mensagem ainda não aberta pelo usuário e que não aparece no formato completo Esta é uma mensagem ainda não aberta pelo usuário e que não aparece no formato completo Esta é uma mensagem ainda não aberta pelo usuário e que não aparece no formato completo",
+        "label":"2"
+    },
+    {
+        "value":"Esta é uma mensagem ainda não aberta pelo usuário e que não aparece no formato completo",
+        "label":"3"
+    }
+]
